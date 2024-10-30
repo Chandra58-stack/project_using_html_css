@@ -1,0 +1,84 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Section headings */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+/* Room photos section */
+/* .room-photos {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.room-photos img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s;
+} */
+ /* Room photos section */
+.room-photos img {
+    width: 250px; /* Adjust the size as you like */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.5s ease; /* Smooth zoom-in effect */
+}
+
+.room-photos img:hover {
+    transform: scale(1.1); /* Zoom in slightly on hover */
+}
+
+
+/* .room-photos img:hover {
+    transform: scale(1.05);
+} */
+
+/* Owner information section */
+.owner-details {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.owner-photo {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #4CAF50;
+}
+
+/* Facilities section */
+#facilities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#facilities li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Room photos section */
+.room-photos img {
+    width: 250px; /* Adjust the width as needed, e.g., 250px or larger */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
